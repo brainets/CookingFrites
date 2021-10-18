@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test it
-      run: |
-        pwd
-        ls -alh
+        run: |
+          pwd
+          ls
 
     steps:
       - name: Deploy Github Pages 🚀
