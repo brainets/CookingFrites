@@ -1,0 +1,21 @@
+name: "Publish slides"
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+
+  test:
+    runs-on: ubuntu-latest
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Github Pages 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages
+          folder: slides/
+          clean: true
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
