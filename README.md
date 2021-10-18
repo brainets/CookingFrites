@@ -2,4 +2,4 @@
 
 Training and courses in the use of Frites.
 
-Link to the slides : [brainets.github.io/cookingfrites/](brainets.github.io/cookingfrites/)
+Link to the slides : [https://brainets.github.io/CookingFrites/](https://brainets.github.io/CookingFrites/)
